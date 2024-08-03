@@ -8,7 +8,7 @@ metadata:
 spec:
   containers:
   - name: javawebappcontainer
-    images: ashokit/javawebapp
+    image: ashokit/javawebapp
     ports:
       - containerPort: 8080
 ...
