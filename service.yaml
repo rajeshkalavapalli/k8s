@@ -4,7 +4,7 @@ kind: Service
 metadata: 
   name: javawebappsvc
 spec: 
-  type: ClusterIp
+  type: ClusterIP
   selector:
     app: javawebapp
   ports:
