@@ -17,13 +17,13 @@ kind: Service
 metadata: 
   name: javawebappsvc
 spec:
-  type: NodePort
+  type: LoadBalancer
   selector: 
     app: webapp
   ports: 
     - port: 80
       targetPort: 8080
-      nodePort: 30125
+      # nodePort: 30125
 ...
     
 
