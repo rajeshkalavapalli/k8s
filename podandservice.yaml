@@ -22,8 +22,8 @@ spec:
     app: webapp
   ports: 
     - Port: 80
-      targetedPort: 8080
-      NodePort: 30125
+      targetPort: 8080
+      nodePort: 30125
 ...
     
 
